@@ -1,0 +1,50 @@
+/*  Este es mi archivo de estilos  */
+
+h2 {
+    color: aqua;
+    font-size: 300px;
+
+}
+
+
+/* 
+    Prioridad
+        estilos inline
+        estilos con selector de ID
+        estilos con selector de clase
+        estilos con selector de etiquetas
+*/
+
+body{
+    background-color: #000;
+    background-color: rgb(162, 17, 17);
+    background-color: rgba(13, 27, 228, 0.219);
+}
+
+
+p{
+    color: white;
+}
+/*Selector de ID*/
+
+#Parrafo1{
+    color: blueviolet;
+}
+
+
+/*Definir estilos con clases*/
+
+.caja{
+    border : 1px solid #fff;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    padding: 50px;
+}
+
+.caja#cajaRoja{
+    border : 1px solid red;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+}
